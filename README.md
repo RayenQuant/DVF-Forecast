@@ -25,7 +25,7 @@ Modélisation et prévision des prix de l'immobilier en France à partir des **D
 
 ---
 
-## 🎯 Aperçu
+##  Aperçu
 
 Ce projet illustre un **workflow data science de bout en bout** appliqué au marché immobilier français :
 
@@ -260,18 +260,18 @@ Pour chaque fold :
 
 ---
 
-## 📊 Dashboard Streamlit
+##  Dashboard Streamlit
 
 4 pages :
 
-- **🎯 Estimateur** : saisie des caractéristiques + coordonnées GPS → prix estimé au m² et total
-- **📊 Exploration** : distribution des prix, top départements, évolution trimestrielle 2020–2024
-- **📈 Performance** : métriques CV par fold, graphiques RMSE et R²
-- **ℹ️ À propos** : documentation du pipeline et des sources
+- ** Estimateur** : saisie des caractéristiques + coordonnées GPS → prix estimé au m² et total
+- ** Exploration** : distribution des prix, top départements, évolution trimestrielle 2020–2024
+- ** Performance** : métriques CV par fold, graphiques RMSE et R²
+- ** À propos** : documentation du pipeline et des sources
 
 ---
 
-## 🔄 Reproductibilité
+##  Reproductibilité
 
 - `random_state=42` fixé partout (KMeans, XGBoost, splits)
 - Dépendances Python avec borne minimale dans `requirements.txt` (compatible 3.10–3.13)
@@ -290,6 +290,6 @@ Les données DVF sont publiées par la **DGFiP** sous Licence Ouverte 2.0.
 
 ## 👤 Auteur
 
-**Rayen Aissa** — [github.com/rayenaissa](https://github.com/rayenaissa)
+**Rayen Aissa** 
 
 Si ce projet vous a été utile, n'hésitez pas à laisser une ⭐ !
