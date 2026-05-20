@@ -1,4 +1,4 @@
-# 🏠 Prévision de Prix Immobiliers — DVF Open Data
+#  Prévision de Prix Immobiliers — DVF Open Data
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-orange.svg)](https://xgboost.readthedocs.io/)
@@ -10,7 +10,7 @@ Modélisation et prévision des prix de l'immobilier en France à partir des **D
 
 ---
 
-## 📋 Sommaire
+##  Sommaire
 
 - [Aperçu](#-aperçu)
 - [Résultats](#-résultats)
@@ -49,7 +49,7 @@ Ce projet illustre un **workflow data science de bout en bout** appliqué au mar
 
 ---
 
-## 📈 Résultats
+##  Résultats
 
 Métriques obtenues en **validation croisée temporelle anti-fuite** sur 5 années (2020–2024), ~730k transactions après nettoyage :
 
@@ -72,7 +72,7 @@ De plus, le DVF ne contient pas l'étage, l'état du bien, l'exposition, ni la p
 
 ---
 
-## 📁 Architecture du projet
+##  Architecture du projet
 
 ```
 dvf-forecast/
@@ -138,7 +138,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Utilisation
+##  Utilisation
 
 ### Pipeline complet
 
