@@ -108,7 +108,7 @@ dvf-forecast/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Prérequis
 
@@ -177,7 +177,7 @@ Accessible sur `http://localhost:8501`.
 
 ---
 
-## 🔧 Pipeline de données
+##  Pipeline de données
 
 ### 1. Ingestion
 
@@ -215,7 +215,7 @@ Téléchargement en streaming des fichiers DVF annuels depuis `data.gouv.fr` (~9
 
 ---
 
-## 🧠 Modélisation
+##  Modélisation
 
 ### Modèle
 
