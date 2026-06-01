@@ -4,7 +4,6 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-orange.svg)](https://xgboost.readthedocs.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/rayenaissa/dvf-forecast/actions/workflows/ci.yml/badge.svg)](https://github.com/rayenaissa/dvf-forecast/actions)
 
 Modélisation et prévision des prix de l'immobilier en France à partir des **Demandes de Valeurs Foncières (DVF)** publiées en open data sur [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/). Le pipeline complet ingère et nettoie **plus de 3,5 millions de transactions brutes (2020–2024)**, construit des variables géographiques, typologiques et temporelles, entraîne un modèle **XGBoost** avec validation croisée temporelle anti-fuite, et expose les prédictions via un **dashboard Streamlit** interactif.
 
